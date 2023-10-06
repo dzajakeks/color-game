@@ -4,6 +4,14 @@
   box-sizing: border-box;
 }
 
+input {
+  margin: 1em 0;
+  width: 300px !important;
+}
+.similarityText {
+  font-size: 1.5rem;
+}
+
 /********** Range Input Styles **********/
 /*Range Reset*/
 .redSlider[type='range'] {

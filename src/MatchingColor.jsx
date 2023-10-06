@@ -16,8 +16,8 @@ const MatchingColor = ({
         <div
           style={{
             background: matchingColor,
-            width: '60px',
-            height: '60px',
+            width: '100px',
+            height: '100px',
             border: '1px solid black',
             borderRadius: '5px',
           }}
@@ -25,8 +25,8 @@ const MatchingColor = ({
         <div
           style={{
             background: randomColor,
-            width: '60px',
-            height: '60px',
+            width: '100px',
+            height: '100px',
             border: '1px solid black',
             borderRadius: '5px',
           }}

@@ -59,7 +59,7 @@ const App = () => {
         </button>
       ) : (
         <div style={{ display: 'grid', placeContent: 'center' }}>
-          <p>similarity: {similarity.toFixed(2)}%</p>
+          <p className='similarityText'>similarity: {similarity.toFixed(2)}%</p>
           <button
             className='btn41-43 btn-42'
             onClick={() => window.location.reload()}
