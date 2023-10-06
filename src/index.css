@@ -1,0 +1,230 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/********** Range Input Styles **********/
+/*Range Reset*/
+.redSlider[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+}
+
+/* Removes default focus */
+.redSlider[type='range']:focus {
+  outline: none;
+}
+
+/***** Chrome, Safari, Opera and Edge Chromium styles *****/
+/* slider track */
+.redSlider[type='range']::-webkit-slider-runnable-track {
+  background-color: #5f0505;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.redSlider[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -5px; /* Centers thumb on the track */
+
+  /*custom styles*/
+  background-color: #d92121;
+  height: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+}
+
+/******** Firefox styles ********/
+/* slider track */
+.redSlider[type='range']::-moz-range-track {
+  background-color: #5f0505;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.redSlider[type='range']::-moz-range-thumb {
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0; /*Removes default border-radius that FF applies*/
+
+  /*custom styles*/
+  background-color: #d92121;
+  height: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+}
+
+/* GREEN */
+.greenSlider[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+}
+
+/* Removes default focus */
+.greenSlider[type='range']:focus {
+  outline: none;
+}
+
+/***** Chrome, Safari, Opera and Edge Chromium styles *****/
+/* slider track */
+.greenSlider[type='range']::-webkit-slider-runnable-track {
+  background-color: #075904;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.greenSlider[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -5px; /* Centers thumb on the track */
+
+  /*custom styles*/
+  background-color: #21d924;
+  height: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+}
+
+/******** Firefox styles ********/
+/* slider track */
+.greenSlider[type='range']::-moz-range-track {
+  background-color: #075904;
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.greenSlider[type='range']::-moz-range-thumb {
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0; /*Removes default border-radius that FF applies*/
+
+  /*custom styles*/
+  background-color: #21d924;
+  height: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+}
+
+/* BLUE */
+.blueSlider[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+  width: 15rem;
+}
+
+/* Removes default focus */
+.blueSlider[type='range']:focus {
+  outline: none;
+}
+
+/***** Chrome, Safari, Opera and Edge Chromium styles *****/
+/* slider track */
+.blueSlider[type='range']::-webkit-slider-runnable-track {
+  background-color: rgb(31, 78, 177);
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.blueSlider[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  margin-top: -5px; /* Centers thumb on the track */
+
+  /*custom styles*/
+  background-color: #3578ff;
+  height: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+}
+
+/******** Firefox styles ********/
+/* slider track */
+.blueSlider[type='range']::-moz-range-track {
+  background-color: rgb(31, 78, 177);
+  border-radius: 0.5rem;
+  height: 0.5rem;
+}
+
+/* slider thumb */
+.blueSlider[type='range']::-moz-range-thumb {
+  border: none; /*Removes extra border that FF applies*/
+  border-radius: 0; /*Removes default border-radius that FF applies*/
+
+  /*custom styles*/
+  background-color: #3578ff;
+  height: 1rem;
+  border-radius: 50%;
+  width: 1rem;
+}
+
+main {
+  background-color: rgb(44, 44, 44);
+  color: white;
+  display: grid;
+  place-content: center;
+  height: 100vh;
+}
+.coloredSquares {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 1rem auto;
+}
+
+.btn41-43 {
+  /* width: 70px; */
+  margin: 10px auto 0 auto;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.btn-42 {
+  border: 2px solid rgb(255, 255, 255);
+  z-index: 1;
+  color: white;
+}
+
+.btn-42:after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 0;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+  background: rgb(255, 255, 255);
+  transition: all 0.3s ease;
+}
+
+.btn-42:hover {
+  color: rgb(0, 0, 0);
+}
+
+.btn-42:hover:after {
+  top: 0;
+  height: 100%;
+}
+
+.btn-42:active {
+  top: 2px;
+}
