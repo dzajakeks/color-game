@@ -21,4 +21,4 @@ RGB sliders to try the match the random color judged with percentage (%)
 - In terminal run 'npm install' and 'npm run dev'
 
 ## Contributing
-/
+dzajakeks
