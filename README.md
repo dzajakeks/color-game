@@ -3,12 +3,16 @@ After seeing an Instagram filter, I had to make a "game" based on the same princ
 
 ## Table of Contents
 
+- [Preview](#preview)
 - [About](#about)
 - [Installing](#installing)
 - [Contributing](#contributing)
 
 ## About
 RGB sliders to try the match the random color judged with percentage (%)
+
+## Preview
+![Untitled video - Made with Clipchamp](https://github.com/dzajakeks/color-game/assets/83473422/2381976d-ee04-4b12-81c6-f1764561967c)
 
 ## Installing
 - Download ZIP
