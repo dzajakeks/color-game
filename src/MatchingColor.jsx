@@ -34,6 +34,7 @@ const MatchingColor = ({
       </div>
       <div>
         <input
+          draggable={false}
           value={red}
           onChange={(e) => {
             setRed(e.target.value);
@@ -46,6 +47,7 @@ const MatchingColor = ({
       </div>
       <div>
         <input
+          draggable={false}
           value={green}
           onChange={(e) => {
             setGreen(e.target.value);
@@ -57,6 +59,7 @@ const MatchingColor = ({
         />
         <div>
           <input
+            draggable={false}
             value={blue}
             onChange={(e) => {
               setBlue(e.target.value);
