@@ -1,5 +1,6 @@
 # ColorMatchingGame 
-After seeing an Instagram filter, I had to make a "game" based on the same principle
+After seeing an Instagram filter, I had to make a "game" based on the same principle.
+ https://color-game-slide.netlify.app
 
 ## Table of Contents
 
