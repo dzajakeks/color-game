@@ -13,6 +13,7 @@ const MatchingColor = ({
   return (
     <form>
       <div className='coloredSquares'>
+        {/* default square color */}
         <div
           style={{
             background: matchingColor,
@@ -22,6 +23,7 @@ const MatchingColor = ({
             borderRadius: '5px',
           }}
         ></div>
+        {/* random square color */}
         <div
           style={{
             background: randomColor,
